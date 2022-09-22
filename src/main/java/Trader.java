@@ -36,8 +36,8 @@ public class Trader<T> {
     }
 
     public Trader(int money){
-        this.inventory = new ArrayList<>();
-        this.wishlist = new ArrayList<>();
+        this.inventory = new ArrayList<T>();
+        this.wishlist = new ArrayList<T>();
         this.money = money;
     }
     /* TODO: Add a new constructor that takes a single argument
