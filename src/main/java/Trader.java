@@ -45,7 +45,7 @@ public class Trader<T> {
      *       empty ArrayLists for their inventory and wishlist.
      */
 
-    public void addToWishList(T item){
+    public void addToWishlist(T item){
         this.wishlist.add(item);
     }
 
